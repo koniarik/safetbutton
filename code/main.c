@@ -98,14 +98,14 @@ void setup_gpio() {
 
 uint8_t counter = 0;
 void check_button() {
-	if (get_bit(PORTB, BUTT)) {
+	if (!get_bit(PINB, BUTT)) {
 		counter += 1;
 	} else {
 		counter = 0;
 		return;
 	}
 
-	if (counter < 5) {
+	if (counter < 100) {
 		return;
 	}
 
