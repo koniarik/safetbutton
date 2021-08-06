@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 26)
+    (drawings 25)
     (tracks 192)
     (zones 0)
     (modules 26)
@@ -923,7 +923,7 @@
     (tags "capacitor handsolder")
     (path /5F2DB769)
     (attr smd)
-    (fp_text reference C2 (at -2.785 0) (layer F.SilkS)
+    (fp_text reference C2 (at 0 -1.397) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.65) (layer F.Fab)
@@ -1132,7 +1132,7 @@
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5F2AE126)
-    (fp_text reference J1 (at 0 -2.159 180) (layer F.SilkS)
+    (fp_text reference J1 (at -2.54 1.27 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x02_Male (at 0 4.87 90) (layer F.Fab)
@@ -1167,9 +1167,6 @@
     )
   )
 
-  (gr_text "Safet board v2" (at 126.619 49.022) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
   (gr_line (start 115 55) (end 165 55) (layer Edge.Cuts) (width 0.05) (tstamp 610D7AB9))
   (gr_line (start 150.368 40.386) (end 159.893 40.386) (layer F.SilkS) (width 0.12))
   (gr_line (start 155.194 42.037) (end 155.194 38.862) (layer F.SilkS) (width 0.12))
